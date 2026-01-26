@@ -11,4 +11,9 @@ public class Monitor extends Product {
     public String toString() {
         return super.toString() + ", " + "diagonal=" + diagonal;
     }
+
+    @Override
+    public int checkStock() {
+        return(int) (Math.random()*100);
+    }
 }

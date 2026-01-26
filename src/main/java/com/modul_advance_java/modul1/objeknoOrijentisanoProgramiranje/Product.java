@@ -1,9 +1,11 @@
 package com.modul_advance_java.modul1.objeknoOrijentisanoProgramiranje;
 
+import com.modul_advance_java.modul1.apstraktneKlaseIInterfejsi.Storable;
+
 //kreiranje ove klase - apstrakcija
 // nasledjivanje - nasledili smo klasu Object tad ne koristimo extands jer se ovo nasledjivanje podrazumeva
 // da smo nasledili neku drugu klasu bilo bi u nastavku extends pa ime klase koja je nasledjena
-public class Product {
+public abstract class Product  {
 
     //definisanje polja u klasi
     //modifikatori vidljivosti - enkapsulacija polja - posledica get i set metode
@@ -64,4 +66,7 @@ public class Product {
                 "model='" + model + "\n" +
                 "price=" + price ;
     }
+
+    //apstraktna metoda
+    public abstract int checkStock();
 }
