@@ -1,4 +1,4 @@
-package com.modul_advance_java.modul1.apstraktneKlaseIInterfejsi;
+package com.modul_advance_java.moduliGradivo.modul1.apstraktneKlaseIInterfejsi;
 
 //interfejs najvisi nivo apstrakcije
 
@@ -7,10 +7,10 @@ public interface Storable {
     //interfejs uvek ima javne abstraktne metode
     // moze i void() read(); jer se abstract i public podrazumevaju
 
-    public abstract void read();
-    public abstract void write();
-    public abstract void update();
-    public abstract void delete();
+    void read();
+    void write();
+    void update();
+    void delete();
 
     //default metode ,neapstraktne- podrazumevane
     //pogodno za slucaj kada zelimo da dodamo novu metodu tj funkcionalnost
