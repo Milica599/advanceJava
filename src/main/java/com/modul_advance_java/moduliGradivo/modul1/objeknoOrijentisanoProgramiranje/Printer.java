@@ -1,4 +1,4 @@
-package com.modul_advance_java.modul1.objeknoOrijentisanoProgramiranje;
+package com.modul_advance_java.moduliGradivo.modul1.objeknoOrijentisanoProgramiranje;
 //polimorfizam kreiranjem klasa koje nasledjuju roditeljsku klasu kreiramo verziju -polimorfizam
 public class Printer extends Product {
     boolean color;

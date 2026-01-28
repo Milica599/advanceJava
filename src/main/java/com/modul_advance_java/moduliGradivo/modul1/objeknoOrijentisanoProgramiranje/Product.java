@@ -1,6 +1,4 @@
-package com.modul_advance_java.modul1.objeknoOrijentisanoProgramiranje;
-
-import com.modul_advance_java.modul1.apstraktneKlaseIInterfejsi.Storable;
+package com.modul_advance_java.moduliGradivo.modul1.objeknoOrijentisanoProgramiranje;
 
 //kreiranje ove klase - apstrakcija
 // nasledjivanje - nasledili smo klasu Object tad ne koristimo extands jer se ovo nasledjivanje podrazumeva

@@ -1,10 +1,10 @@
-package com.modul_advance_java.modul1.objeknoOrijentisanoProgramiranje;
+package com.modul_advance_java.moduliGradivo.modul1.objeknoOrijentisanoProgramiranje;
 
 // nasledjivanje formula extends ime klase koju nasledjujemo
 //posle extends moye da ide sao ime jedne klase - razlog moye se naslediti samo jedna klasa
 
-import com.modul_advance_java.modul1.apstraktneKlaseIInterfejsi.Searchable;
-import com.modul_advance_java.modul1.apstraktneKlaseIInterfejsi.Storable;
+import com.modul_advance_java.moduliGradivo.modul1.apstraktneKlaseIInterfejsi.Searchable;
+import com.modul_advance_java.moduliGradivo.modul1.apstraktneKlaseIInterfejsi.Storable;
 //klasu nasledjujemo,interfejs implementiramo
 //extends jednu klasu ,implements moze vise interface
 public class Gamepad extends Product implements Storable, Searchable {

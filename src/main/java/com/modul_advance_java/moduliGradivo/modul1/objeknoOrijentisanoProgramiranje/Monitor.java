@@ -1,4 +1,4 @@
-package com.modul_advance_java.modul1.objeknoOrijentisanoProgramiranje;
+package com.modul_advance_java.moduliGradivo.modul1.objeknoOrijentisanoProgramiranje;
 
 
 public class Monitor extends Product {

@@ -1,7 +1,7 @@
-package com.modul_advance_java.modul1.objeknoOrijentisanoProgramiranje;
+package com.modul_advance_java.moduliGradivo.modul1.objeknoOrijentisanoProgramiranje;
 
 public class JavaProgram {
-   public static void main(String[] args) {
+   static void main(String[] args) {
 
        //kreiranje objekta - instanciranje klase Product
        //formula za kreiranje objekta: tip objekta ime objekta = new konstruktor;
