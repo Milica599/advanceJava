@@ -20,7 +20,7 @@ public class JavaProgram {
         myCollection.add("Three");
         myCollection.add("Four");
         myCollection.add("Five");
-        myCollection("One");
+        myCollection.add("One");
 
         //ispis svih elemenata hashSet-a
         //ujedno i dokaz za nepostojanje redosleda
