@@ -15,6 +15,11 @@ public class JavaProgram7 {
         //terminalna operacija kad se zavrsi onda se i tok zatvara
         //a terminalna ponovna operacije se ne moze izvrsiti nad tokom koji je vec zatvoren
         carsStream.forEach(System.out::println);
-
+        Stream<String> carsStream1 = Arrays.stream(cars);
+        //forEach  i lambda u kombinaciji
+        carsStream1 = Arrays.stream(cars);
+        carsStream1.forEach(s -> {
+            System.out.println("Car brand: " + s);
+        });
     }
 }
